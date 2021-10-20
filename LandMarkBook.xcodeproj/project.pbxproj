@@ -13,6 +13,11 @@
 		4A28A28C26FF28E10076852F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A28A28A26FF28E10076852F /* Main.storyboard */; };
 		4A28A28E26FF28E30076852F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A28A28D26FF28E30076852F /* Assets.xcassets */; };
 		4A28A29126FF28E30076852F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A28A28F26FF28E30076852F /* LaunchScreen.storyboard */; };
+		4A54E62E27009305004FCD02 /* bahcesehir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E62A27009305004FCD02 /* bahcesehir.jpg */; };
+		4A54E62F27009305004FCD02 /* odtu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E62B27009305004FCD02 /* odtu.jpg */; };
+		4A54E63027009305004FCD02 /* hacettepe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E62C27009305004FCD02 /* hacettepe.jpg */; };
+		4A54E63327009948004FCD02 /* yildiz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E63227009948004FCD02 /* yildiz.jpeg */; };
+		4A54E63527009EA4004FCD02 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54E63427009EA4004FCD02 /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		4A28A28D26FF28E30076852F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A28A29026FF28E30076852F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A28A29226FF28E30076852F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A54E62A27009305004FCD02 /* bahcesehir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bahcesehir.jpg; sourceTree = "<group>"; };
+		4A54E62B27009305004FCD02 /* odtu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odtu.jpg; sourceTree = "<group>"; };
+		4A54E62C27009305004FCD02 /* hacettepe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hacettepe.jpg; sourceTree = "<group>"; };
+		4A54E63227009948004FCD02 /* yildiz.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yildiz.jpeg; sourceTree = "<group>"; };
+		4A54E63427009EA4004FCD02 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				4A28A28426FF28E10076852F /* AppDelegate.swift */,
 				4A28A28626FF28E10076852F /* SceneDelegate.swift */,
+				4A54E62A27009305004FCD02 /* bahcesehir.jpg */,
+				4A54E62C27009305004FCD02 /* hacettepe.jpg */,
+				4A54E62B27009305004FCD02 /* odtu.jpg */,
+				4A54E63227009948004FCD02 /* yildiz.jpeg */,
 				4A28A28826FF28E10076852F /* ViewController.swift */,
+				4A54E63427009EA4004FCD02 /* imageViewController.swift */,
 				4A28A28A26FF28E10076852F /* Main.storyboard */,
 				4A28A28D26FF28E30076852F /* Assets.xcassets */,
 				4A28A28F26FF28E30076852F /* LaunchScreen.storyboard */,
@@ -125,8 +140,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A28A29126FF28E30076852F /* LaunchScreen.storyboard in Resources */,
+				4A54E63327009948004FCD02 /* yildiz.jpeg in Resources */,
+				4A54E63027009305004FCD02 /* hacettepe.jpg in Resources */,
+				4A54E62F27009305004FCD02 /* odtu.jpg in Resources */,
 				4A28A28E26FF28E30076852F /* Assets.xcassets in Resources */,
 				4A28A28C26FF28E10076852F /* Main.storyboard in Resources */,
+				4A54E62E27009305004FCD02 /* bahcesehir.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +158,7 @@
 			files = (
 				4A28A28926FF28E10076852F /* ViewController.swift in Sources */,
 				4A28A28526FF28E10076852F /* AppDelegate.swift in Sources */,
+				4A54E63527009EA4004FCD02 /* imageViewController.swift in Sources */,
 				4A28A28726FF28E10076852F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
